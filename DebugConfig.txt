@@ -18,3 +18,31 @@ std::string s1 = "Stations1.txt";
 	}
 	argv[argc++] = (char*)s1.c_str();
 	argv[argc++] = (char*)s2.c_str();
+
+
+2 OPTIONS:
+1.CREATE A REPO AND CLONE
+OR
+2.LOCALLY CREATE/INITIALIZE A REMOTE REPO
+
+…or create a new repository on the command line
+
+echo "# bankman" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+
+//changes main branch from master to main
+git branch -M main
+
+This command creates a remote origin, to get where the pulls and pushes should go to.
+git remote add origin git@github.com:rigelshasani/bankman.git
+
+//push = send to server pull = extract
+git push -u origin main
+
+
+
+ADD BREAKPOINT!
+inside tasks.json, inside args:
+"${file}", // change to "${fileDirname}/*.cpp",(line10)
