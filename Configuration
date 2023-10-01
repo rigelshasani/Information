@@ -1,0 +1,6 @@
+My configuration for working with C++, Python and JS
+1. I work with a dual-booted Linux/Windows system, running Manjaro on a partitioned disk and using WSL 2 on the Windows machine to code in Visual Studio Code.
+I installed these plugins to my Windows workspace to make it easier to work on linux later on, since some of them come pre-installed in Manjaro.
+2. I use ZSH as my go-to terminal framework, with high configurability & a respectful dollop of features. https://github.com/ohmyzsh/ohmyzsh
+3. I use ranger as my go-to file manager, absolutely beautiful work. https://github.com/ranger/ranger
+4. I use autojump to use AI to remember my commands and throw them back to improve code speed. https://github.com/wting/autojump
